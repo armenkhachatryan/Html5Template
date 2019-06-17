@@ -1,6 +1,57 @@
+body {
+  margin: 0;
+  padding: 0; }
 
+#ccc {
+  width: 100%;
+  position: fixed;
+  padding-top: 15px; }
+  #ccc #logo {
+    font-size: 35px;
+    font-weight: bold; }
+    #ccc #logo span {
+      color: #16a085; }
+  #ccc #menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px; }
+    #ccc #menu .selected {
+      color: #16a085; }
+    #ccc #menu li {
+      margin-left: 35px; }
+      #ccc #menu li a {
+        text-decoration: none;
+        color: #222222;
+        font-weight: bold; }
+        #ccc #menu li a:hover {
+          color: #16a085; }
 
-i {
-    width: 250px;
-    height: 150px;
-}
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/backgrounds/1.jpg);
+  background-size: cover; }
+  .header div h3 {
+    font-weight: 500; }
+  .header #previus {
+    position: fixed;
+    left: 10px;
+    font-size: 100px;
+    color: grey;
+    text-decoration: none; }
+    .header #previus:hover {
+      color: #222222; }
+  .header #next {
+    position: fixed;
+    right: 10px;
+    font-size: 100px;
+    color: grey;
+    text-decoration: none; }
+    .header #next:hover {
+      color: #222222; }
+
+/*# sourceMappingURL=main.css.map */

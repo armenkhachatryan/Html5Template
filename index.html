@@ -7,40 +7,46 @@
 
    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/slide.css" rel="stylesheet">
 
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <header>
+    
+    <nav class="d-flex justify-content-between" id="ccc">
+       
+            <div class="col" id="logo">CREAT<span>IVE</span>X</div>
+             <ul class="col" id="menu">
+                    <li><a class="selected" href="#">HOME</a></HOME></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">WORKS</a></li>
+                    <li><a href="#">PRICING</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+          
+    </nav>
+    <header class="header">
+        <ul id="slides">
+        <li class="slide showing">Slide 1</li>
+        <li class="slide">Slide 2</li>
+        <li class="slide">Slide 3</li>
+        <li class="slide">Slide 4</li>
+        <li class="slide">Slide 5</li>
+</ul>
         <div>
-            <h1>WE PROVIDE YOU THE BEST</h1>
+            <h3>WE PROVIDE YOU THE BEST</h3>            
             <div>
                 <span> text slider</span>
             </div>
         </div>
-        <i  class="fas fa-arrow-left"  ></i>
-        <i class="fas fa-arrow-right"></i>
+        <a id="previus" href="#">&#8249;</a>
+        <a id="next" href="#">&#8250;</a>
     </header>
-    <nav class="container">
-        <div class="row">
-            <div class="col">CREATIVEX</div>
-            <div class="col" class="menu">
-                <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>SERVICES</li>
-                    <li>WORKS</li>
-                    <li>PRICING</li>
-                    <li>CONTACT</li>
-                </ul>
-            </div>
-        </div>    
-    </nav>
     <article>
-        3
+        3   
     </article>
     <section>   
         4
@@ -51,6 +57,7 @@
     <footer>
         6
     </footer>
+    <script src="./js/slide.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
