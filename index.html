@@ -29,33 +29,47 @@
           
     </nav>
     <header class="header">
-        <ul id="slides">
-        <li class="slide showing">Slide 1</li>
-        <li class="slide">Slide 2</li>
-        <li class="slide">Slide 3</li>
-        <li class="slide">Slide 4</li>
-        <li class="slide">Slide 5</li>
-</ul>
-        <div>
-            <h3>WE PROVIDE YOU THE BEST</h3>            
-            <div>
-                <span> text slider</span>
+        <div class="blog-slider__container">
+            <div class="blogSlides ">
+              <img src="./images/backgrounds/1.jpg">
+              <div class="blog-slider__text">DES<span>IGN</span>S</div>
             </div>
+            <div class="blogSlides ">
+              <img src="./images/backgrounds/2.jpg">
+              <div class="blog-slider__text">PRO<span>DUQ</span>T</div>
+            </div>
+          
+            <div class="blogSlides ">
+              <img src="./images/backgrounds/3.jpg">
+              <div class="blog-slider__text">SER<span>VIC</span>E</div>
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <div class="blogSlider__dots" style="text-align:center">
+            <span class="blogSlider__dots--dot" onclick="currentSlide(1)"></span> 
+            <span class="blogSlider__dots--dot" onclick="currentSlide(2)"></span> 
+            <span class="blogSlider__dots--dot" onclick="currentSlide(3)"></span> 
+          </div>
+        <div class="Header-title">
+            <span>WE PROVIDE YOU THE BEST</span>            
         </div>
-        <a id="previus" href="#">&#8249;</a>
-        <a id="next" href="#">&#8250;</a>
+        
     </header>
     <article>
-        3   
+           
     </article>
     <section>   
-        4
+        
     </section>
     <section>
-        5
+        
     </section>
     <footer>
-        6
+        
     </footer>
     <script src="./js/slide.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

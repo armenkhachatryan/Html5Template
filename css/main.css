@@ -5,7 +5,8 @@ body {
 #ccc {
   width: 100%;
   position: fixed;
-  padding-top: 15px; }
+  padding-top: 15px;
+  z-index: 9999; }
   #ccc #logo {
     font-size: 35px;
     font-weight: bold; }
@@ -33,25 +34,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../images/backgrounds/1.jpg);
-  background-size: cover; }
-  .header div h3 {
-    font-weight: 500; }
-  .header #previus {
-    position: fixed;
-    left: 10px;
-    font-size: 100px;
-    color: grey;
-    text-decoration: none; }
-    .header #previus:hover {
-      color: #222222; }
-  .header #next {
-    position: fixed;
-    right: 10px;
-    font-size: 100px;
-    color: grey;
-    text-decoration: none; }
-    .header #next:hover {
-      color: #222222; }
+  flex-direction: column; }
+  .header .Header-title {
+    position: absolute;
+    top: 50%; }
 
 /*# sourceMappingURL=main.css.map */
