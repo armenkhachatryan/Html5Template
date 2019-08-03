@@ -60,15 +60,15 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black;
+    padding: 0 3em;
+
     .section_1_title {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        align-items: center;
         h1{
             width: 50%;
-            padding-left: 50px;
+           
             font-size: 4em;
             font-weight: 800;
             letter-spacing: 4px;
@@ -87,5 +87,20 @@ body{
            
         }
        
+    }
+    .section_1_content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5em;
+        div{
+            width: 25%;
+            overflow: hidden;
+            .fa  {
+                font-size: 3em;
+                color: #16a085;
+            }
+           
+        }
+        
     }
 }
