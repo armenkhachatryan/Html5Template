@@ -60,7 +60,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 3em;
+    padding: 0 5em;
 
     .section_1_title {
         width: 100%;
@@ -103,4 +103,46 @@ body{
         }
         
     }
+}
+#section-2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5em;
+    div{
+        width: 350px;
+        height: 300px;
+        position: relative;
+        
+        div{
+            overflow: hidden;
+            object-fit: cover;
+            z-index: 2;
+            img{
+                width: 133%;
+                height: 360px;
+                position: absolute;
+
+                 &:hover {
+                    -o-transition: cubic-bezier(0.45, 0.05, 0.55, 0.95) ;
+                    transition: 1s ;
+                    transform: rotate(30deg) scale(1.5);
+                    cursor: pointer;
+                }
+            }
+            
+            
+        }
+        p {
+            position: absolute;
+            bottom: 0;
+            z-index: 3;
+            background-color: #16a085;
+        }
+    }
+}
+#section-3{
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
 }
